@@ -11,8 +11,9 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
-    background-color: #fff;
+    background-color:  #a89465;
 }
+
 
 #display {
     width: 100%;
@@ -20,8 +21,9 @@ body {
     box-sizing: border-box;
     font-size: 24px;
     text-align: right;
+    background-color: rgba(58, 69, 105, 0.53);
+    border-bottom: aqua;
 }
-
 .keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -37,5 +39,5 @@ button {
 }
 
 button:hover {
-    background-color: #ccc;
+    background-color: rgba(93, 81, 50, 0.53);
 }
